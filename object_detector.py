@@ -38,7 +38,7 @@ def detect_objects_on_image(buf):
     :param buf: Input image file stream
     :return: Array of bounding boxes in format [[x1,y1,x2,y2,object_type,probability],..]
     """
-    model = YOLO("best.pt")
+    model = YOLO("yolov8n.pt")
     results = model.predict(Image.open(buf))
     result = results[0]
     output = []
