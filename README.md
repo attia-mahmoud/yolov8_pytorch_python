@@ -1,4 +1,4 @@
-# Traffic Lights Object Detector using YOLOv8 neural network
+# Object Detector using YOLOv8 neural network
 
 <!-- <div align="center">
 <a href="https://dev.to/andreygermanov/a-practical-introduction-to-object-detection-with-yolov8-neural-network-3n8c">
